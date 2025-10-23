@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <title>Bigarren Orria</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1 { color: #003366; }
+        nav a { margin-right: 10px; font-weight: bold; text-decoration: none; color: #0056b3; }
+        .txikia {
+            width: 150px;
+            cursor: pointer;
+        }
+
+        .handia {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ARAUAK</h1>
+    <nav>
+        <a href="sarrera.html">Saskibaloia</a>
+        <a href="lehena.html">Posizioak</a>
+        <a href="hirugarrena.html">Onenak</a>
+    </nav>
+<img onclick="javascript:this.width=550;this.height=400" ondblclick="javascript:this.width=100;this.height=80" src="descarga.jpeg" width="100"/>
+    <div class="video-container">
+    <h1>ARAUAK</h1>
+    <h2>Azalpena</h2>
+     <p>Saskibaloian bost jokalari egoten dira zelai barruan, eta helburua baloia aurkariaren saskian sartzea da puntuak lortzeko. 
+        Partidak lau laurden ditu, bakoitza hamar minutukoa, eta berdinketan luzapena jokatzen da. 
+        Jokalariek baloia boteatuz mugitu behar dute, eta ezin dute bi pauso baino gehiago eman boteatu gabe. 
+        Puntuak jaurtiketa motaren arabera lortzen dira: 
+        Hiru puntu kanpoko lerrotik, bi puntu barrutik eta puntu bat jaurtiketa librean. 
+        Azkenik, taldea 24 segundoan jaurti behar da eta 8 segundoan zelai erdira iritsi.</p>
+
+    <script>
+        function handitu(irudia) {
+            if (irudia.classList.contains("txikia")) {
+                irudia.classList.remove("txikia");
+                irudia.classList.add("handia");
+            } else {
+                irudia.classList.remove("handia");
+                irudia.classList.add("txikia");
+            }
+        }
+    </script>
+
+    <h2>Bideoa</h2>
+   <video controls width="640">
+  <source src="videoplayback.mp4" type="video/mp4">
+</video>
+    </video>
+  <h2>INFORMAZIO GEHIAGO</h2>
+  <a href="https://es.wikipedia.org/wiki/Baloncesto">Klikatu Hemen</a>
+</body>
+</html>
+</body>
+</html>
+
